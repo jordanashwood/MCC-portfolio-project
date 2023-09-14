@@ -1,9 +1,13 @@
 :root {
-  --primary: #f6c922;
+  --primary-color: #f05247;
+  --secondary-color: #f6c922;
+  --tertiary-color: #e7edf0;
+  --paragraph-color: #333333;
+  --box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.17);
 }
 h1 {
   font-family: "Playfair Display", serif;
-  color: #333333;
+  color: var(--paragraph-color);
   font-size: 45px !important;
 }
 h2,
@@ -11,19 +15,27 @@ h3,
 p {
   font-family: "Work Sans", sans-serif;
 }
+.about-section h2 {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.about-section {
+  color: var(--paragraph-color);
+}
 .btn-yellow {
   width: fit-content;
   padding: 10px 20px;
-  border: 2px solid var(--primary);
+  border: 2px solid var(--secondary-color);
   border-radius: 10px;
-  background-color: var(--primary);
+  background-color: var(--secondary-color);
   transition: all 200ms ease-in-out;
   font-weight: 600;
   color: #333333;
   text-decoration: none;
 }
 .btn-yellow:hover {
-  border: 2px solid var(--primary);
+  border: 2px solid var(--secondary-color);
+  color: var(--tertiary-color);
   background-color: #e59900;
 }
 .hero {
@@ -38,4 +50,24 @@ p {
 }
 .hero-text {
   color: #f0f4f4;
+}
+.navbar {
+  box-shadow: var(--box-shadow);
+}
+.nav-logo {
+  width: 150px;
+}
+.sm-bar {
+  background-color: var(--secondary-color);
+  width: 100%;
+  padding: 15px;
+}
+.sm-icon {
+  font-size: 30px;
+  transition: all 200ms ease-in-out;
+}
+
+.sm-icon:hover {
+  font-size: 35px;
+  color: black;
 }
