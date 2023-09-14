@@ -1,7 +1,10 @@
+:root {
+  --primary: #f6c922;
+}
 h1 {
   font-family: "Playfair Display", serif;
   color: #333333;
-  font-size: 55px !important;
+  font-size: 45px !important;
 }
 h2,
 h3,
@@ -11,7 +14,27 @@ p {
 .btn-yellow {
   width: fit-content;
   padding: 10px 20px;
-  border: none;
-  border-radius: 30px;
-  background-color: orange;
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+  background-color: var(--primary);
+  transition: all 200ms ease-in-out;
+  font-weight: 600;
+  color: #333333;
+}
+.btn-yellow:hover {
+  border: 2px solid var(--primary);
+  background-color: #e59900;
+}
+.hero {
+  background-image: url("/img/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+.hero-img {
+  width: 350px;
+  aspect-ratio: initial;
+}
+.hero-text {
+  color: #f0f4f4;
 }
