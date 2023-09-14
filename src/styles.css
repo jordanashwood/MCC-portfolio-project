@@ -1,0 +1,10 @@
+h1 {
+  font-family: "Playfair Display", serif;
+  color: #333333;
+  font-size: 60px !important;
+}
+h2,
+h3,
+p {
+  font-family: "Work Sans", sans-serif;
+}
