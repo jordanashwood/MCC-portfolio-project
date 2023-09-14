@@ -20,6 +20,7 @@ p {
   transition: all 200ms ease-in-out;
   font-weight: 600;
   color: #333333;
+  text-decoration: none;
 }
 .btn-yellow:hover {
   border: 2px solid var(--primary);
