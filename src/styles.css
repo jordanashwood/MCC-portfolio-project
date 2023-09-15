@@ -35,8 +35,13 @@ p {
 }
 .btn-yellow:hover {
   border: 2px solid var(--secondary-color);
-  color: var(--tertiary-color);
+  color: white;
   background-color: #e59900;
+}
+.card {
+  box-shadow: var(--box-shadow);
+  border: none !important;
+  padding: 20px;
 }
 .hero {
   background-image: url("/img/background.svg");
@@ -57,9 +62,24 @@ p {
 .nav-logo {
   width: 150px;
 }
+.portfolio-icon {
+  background-color: #6860ab;
+  font-size: 35px;
+  text-align: center;
+  border-radius: 48px;
+  width: fit-content;
+  aspect-ratio: 1/1;
+}
+.portfolio-section {
+  background-color: #d2dce1;
+  padding: 25px;
+}
+.portfolio-section h2 {
+  color: #6860ab;
+  font-weight: 600;
+}
 .sm-bar {
   background-color: var(--secondary-color);
-  width: 100%;
   padding: 15px;
 }
 .sm-icon {
