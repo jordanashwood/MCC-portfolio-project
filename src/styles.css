@@ -42,6 +42,10 @@ p {
   box-shadow: var(--box-shadow);
   border: none !important;
   padding: 20px;
+  align-items: center;
+}
+.footer-logo {
+  width: 120px;
 }
 .hero {
   background-image: url("/img/background.svg");
@@ -90,4 +94,13 @@ p {
 .sm-icon:hover {
   font-size: 35px;
   color: black;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 10px;
+  }
+  .hero-text {
+    text-align: center;
+  }
 }
