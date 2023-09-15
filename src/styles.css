@@ -106,11 +106,18 @@ p {
   .hero {
     padding: 10px;
   }
-
   .hero-text {
     text-align: center;
   }
   .sm-icon {
     font-size: 40px;
+  }
+}
+@media (max-width: 500px) {
+  .hero {
+    height: 300px;
+  }
+  .hero-text {
+    padding-top: 50px;
   }
 }
