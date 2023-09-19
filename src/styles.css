@@ -3,7 +3,11 @@
   --secondary-color: #f6c922;
   --tertiary-color: #e7edf0;
   --paragraph-color: #333333;
+  --brand-purple: #6860ab;
   --box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.17);
+}
+b {
+  color: var(--brand-purple);
 }
 h1 {
   font-family: "Playfair Display", serif;
@@ -67,7 +71,7 @@ p {
   width: 150px;
 }
 .portfolio-icon {
-  background-color: #6860ab;
+  background-color: var(--brand-purple);
   font-size: 35px;
   text-align: center;
   border-radius: 48px;
@@ -79,7 +83,7 @@ p {
   padding: 25px;
 }
 .portfolio-section h2 {
-  color: #6860ab;
+  color: var(--brand-purple);
   font-weight: 600;
 }
 .sm-bar {
@@ -97,6 +101,9 @@ p {
 }
 
 @media (max-width: 900px) {
+  .about-paragraph {
+    text-align: center;
+  }
   .card {
     margin: 20px 0;
   }
@@ -108,6 +115,11 @@ p {
   }
   .hero-text {
     text-align: center;
+  }
+  .member-photo {
+    max-width: 250px !important;
+  }
+  .member-photo-section {
   }
   .sm-icon {
     font-size: 40px;
