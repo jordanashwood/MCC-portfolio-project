@@ -101,7 +101,8 @@ p {
 }
 
 @media (max-width: 900px) {
-  .about-paragraph {
+  .about-paragraph,
+  .portfolio-paragraph {
     text-align: center;
   }
   .card {
@@ -118,8 +119,6 @@ p {
   }
   .member-photo {
     max-width: 250px !important;
-  }
-  .member-photo-section {
   }
   .sm-icon {
     font-size: 40px;
