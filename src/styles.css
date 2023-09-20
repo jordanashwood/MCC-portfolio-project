@@ -114,7 +114,6 @@ p {
 .user-form {
   display: flex;
   flex-direction: column;
-  align-items: right;
 }
 .user-form input {
   padding: 8px;
@@ -124,19 +123,17 @@ p {
 
 @media (max-width: 900px) {
   .about-paragraph,
-  .portfolio-paragraph {
+  .portfolio-paragraph,
+  .contact-paragraph {
     text-align: center;
   }
   .card {
     margin: 20px 0;
     width: 27rem !important;
   }
-  .contact-section {
-    text-align: center;
-  }
   .contact-content {
-    display: flex;
-    justify-content: center;
+    max-width: 85%;
+    display: block;
   }
   .design-content {
     text-align: center;
