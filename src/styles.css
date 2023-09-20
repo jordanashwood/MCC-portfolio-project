@@ -107,9 +107,14 @@ p {
   }
   .card {
     margin: 20px 0;
+    width: 27rem !important;
   }
   .contact-section {
     text-align: center;
+  }
+  .design-content {
+    text-align: center;
+    margin-top: 20px !important;
   }
   .hero {
     padding: 10px;
@@ -125,6 +130,10 @@ p {
   }
 }
 @media (max-width: 500px) {
+  .design-content {
+    text-align: center;
+    margin-top: 20px !important;
+  }
   .hero {
     height: 300px;
   }
