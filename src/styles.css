@@ -56,7 +56,8 @@ p {
 }
 .contact-info {
   background-color: var(--tertiary-color);
-  padding: 20px;
+  padding: 20px 0px 20px 20px;
+  border-radius: 10px;
 }
 .footer-logo {
   width: 120px;
@@ -132,6 +133,10 @@ p {
   }
   .contact-section {
     text-align: center;
+  }
+  .contact-content {
+    display: flex;
+    justify-content: center;
   }
   .design-content {
     text-align: center;
