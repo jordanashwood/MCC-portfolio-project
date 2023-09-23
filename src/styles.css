@@ -19,6 +19,16 @@ h3,
 p {
   font-family: "Work Sans", sans-serif;
 }
+nav {
+  box-shadow: var(--box-shadow);
+}
+nav ul {
+  margin-left: 20px;
+}
+nav li.active a {
+  font-weight: 600;
+  color: var(--primary-color);
+}
 .about-section h2 {
   color: var(--primary-color);
   font-weight: 600;
@@ -28,7 +38,7 @@ p {
 }
 .btn-yellow {
   width: fit-content;
-  padding: 10px 20px;
+  padding: 10px 15px;
   border: 2px solid var(--secondary-color);
   border-radius: 10px;
   background-color: var(--secondary-color);
@@ -81,9 +91,6 @@ p {
 }
 .hero-text {
   color: #f0f4f4;
-}
-.navbar {
-  box-shadow: var(--box-shadow);
 }
 .nav-logo {
   width: 150px;
@@ -165,7 +172,7 @@ p {
     margin-top: 20px !important;
   }
   .hero {
-    height: 300px;
+    height: fit-content;
   }
   .hero-text {
     padding-top: 50px;
