@@ -19,6 +19,9 @@ h3,
 p {
   font-family: "Work Sans", sans-serif;
 }
+footer {
+  margin-bottom: 20px !important;
+}
 nav {
   box-shadow: var(--box-shadow);
 }
@@ -78,6 +81,15 @@ nav li.active a {
 }
 .footer-logo {
   width: 120px;
+}
+.github-link a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #969696;
+}
+.github-link a:hover {
+  text-decoration: underline;
+  color: var(--paragraph-color);
 }
 .hero {
   background-image: url("/img/background.svg");
